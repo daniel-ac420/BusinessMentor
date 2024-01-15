@@ -480,6 +480,7 @@
 /* ↑↑↑ 1024px ↑↑↑ */
 
 
+
 @media (max-width: 768px) {
 	
 	.section__title {
@@ -579,50 +580,6 @@
 	.tariff-item__title {
 		margin: 14px 0 8px;
 	}
-
-/*	
-	.tariff-item {
-		padding: 20px 24px;
-		max-height: 400px;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		flex-basis: unset;
-		order: 10;
-	}
-	
-	.tariff-item__price-wrapper {
-		min-width: 300px;
-		order: 1;
-	}
-	
-	.tariff-item__decor-wrapper {
-		min-width: 300px;
-		order: 2;
-	}
-	
-	.tariff-item__advantages-item {
-		max-width: 280px;
-	}
-	
-
-	
-	.tariff-item__title {
-		margin: 24px 0 8px;
-		text-align: left;
-	}
-	
-	.tariff-item__subtitle {
-		text-align: left;
-	}
-	
-	.tariff-item__advantages-list {
-		gap: 8px;
-		padding: 0 40px 0 20px;
-		margin-top: 20px;
-		font-size: 14px;
-	}
-*/
 	
 }
 /* ↑↑↑ 768px ↑↑↑ */
@@ -778,23 +735,18 @@
 	.tariff-item--best .tariff-item__price-wrapper::after {
 		background-position: top;
 	}
+	
+	.option[data-num="2"] {
+		margin-left: -5px;
+	}
+	
+	.option[data-num="3"] {
+		margin-left: -5px;
+	}
 
 }
 /* ↑↑↑ 534px ↑↑↑ */
 
-
-
-@media (max-width: 480px) {
-	
-}
-/* ↑↑↑ 480px ↑↑↑ */
-
-
-@media (max-width: 430px) {
-	
-
-}
-/* ↑↑↑ 430px ↑↑↑ */
 
 
 @media (max-width: 375px) {
@@ -805,6 +757,7 @@
 	
 }
 /* ↑↑↑ 375px ↑↑↑ */
+
 
 
 @media (max-width: 320px) {

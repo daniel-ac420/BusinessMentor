@@ -119,6 +119,7 @@ button:focus {
 /* ↑↑↑ 1180px ↑↑↑ */
 
 
+
 @media (max-width: 1024px) {
 	
 	.section__title {
@@ -164,52 +165,3 @@ button:focus {
 	
 }
 /* ↑↑↑ 534px ↑↑↑ */
-
-
-
-@media (max-width: 480px) {
-	
-/*
-	.wrapper {
-		max-width: 460px;
-	}
-*/
-	
-}
-/* ↑↑↑ 480px ↑↑↑ */
-
-
-@media (max-width: 430px) {
-	
-/*
-	.wrapper {
-		max-width: 410px;
-	}
-*/
-	
-}	
-/* ↑↑↑ 430px ↑↑↑ */
-	
-	
-@media (max-width: 375px) {
-	
-/*
-	.wrapper {
-		max-width: 355px;
-	}
-*/
-	
-}	
-/* ↑↑↑ 375px ↑↑↑ */
-		
-
-@media (max-width: 320px) {
-	
-/*
-	.wrapper {
-		max-width: 300px;
-	}
-*/
-	
-}
-/* ↑↑↑ 320px ↑↑↑ */
