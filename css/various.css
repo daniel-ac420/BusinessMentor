@@ -1,0 +1,20 @@
+:root {
+	--colorBlack: #0e0f11;
+	--colorBlackTransparent: rgba(14, 15, 17, 0.8);
+	
+	--colorWhite: #ffffff;
+	--colorWhiteTransparent: rgba(255, 255, 255, 0.8);
+	
+	--colorGold: #e0b330;
+	
+	--colorRed: #f0574d;
+	--colorRedTransparent: rgba(240, 87, 77, 0.20);
+	
+	--colorBlue: #2557f6;
+	
+	--colorMilk: #f3f7fb;
+	
+	--colorGrayLight: #c3c8cf;
+	
+	--colorGrayDark: #8f959b;
+}

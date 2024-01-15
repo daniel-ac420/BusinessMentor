@@ -1,0 +1,215 @@
+body, html {
+	height: 100%;
+	scroll-behavior: smooth; /* плавная прокрутка */
+}
+
+html {
+	position: relative; /* ↓ */
+	overflow-x: hidden; /* запрет прокрутки при открытии модальных окон */
+}
+
+body {
+	position: relative; /* ↓ */
+	overflow-x: hidden; /* запрет прокрутки при открытии модальных окон */
+	height: auto; /* убирает дополнительный вертикальный у body, добавляемый предыдущим свойством */
+	color: var(--colorBlack); /* default color */
+	background-color: var(--colorMilk);
+	font-family: "SF UI Display Regular", Arial, sans-serif; /* all text */
+	font-size: 16px; /* default size */
+	font-weight: 400; 
+	line-height: 1.4;
+}
+
+.wrapper-height {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1; /* растягивает пространство между хэдером и футером */
+}
+
+.wrapper {
+	max-width: 1340px; /* +20px side padding */
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.section {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-family: "SF UI Display Semibold", Arial, sans-serif;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.section__title {
+	margin: 24px 0 48px;
+	font-size: 56px;
+	line-height: 1;
+}
+
+button {
+	display: block;
+	width: 100%;
+	padding: 22.5px 24px;
+	font-family: "SF UI Display Semibold", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: var(--colorWhite);
+	background-color: var(--colorBlack);
+	border: unset;
+	border-radius: 16px;
+	outline: 2px solid transparent;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+button:hover:not([disabled]) {
+	color: var(--colorWhiteTransparent);
+	background-color: var(--colorBlackTransparent);
+}
+
+button:focus {
+	outline: 2px solid var(--colorBlackTransparent);
+	outline-offset: 5px;
+}
+
+.button.disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+
+@media (max-width: 1366px) {
+	
+	.wrapper {
+		max-width: 1180px;
+	}
+	
+}
+/* ↑↑↑ 1366px ↑↑↑ */
+
+
+
+@media (max-width: 1180px) {
+	
+	.wrapper {
+		max-width: 980px;
+	}
+		
+}
+/* ↑↑↑ 1180px ↑↑↑ */
+
+
+@media (max-width: 1024px) {
+	
+	.section__title {
+		margin: 16px 0 48px;
+		font-size: 48px;
+	}
+	
+	button {
+		padding: 20.5px 24px;
+	}
+	
+}
+/* ↑↑↑ 1024px ↑↑↑ */
+
+
+
+@media (max-width: 768px) {
+	
+	.wrapper {
+		max-width: 700px;
+	}
+	
+}
+/* ↑↑↑ 768px ↑↑↑ */
+
+
+
+@media (max-width: 534px) {
+	
+	.wrapper {
+		max-width: 97%;
+	}
+	
+	.section__title {
+		margin: 12px 0 32px;
+		font-size: 32px;
+	}
+	
+	button {
+		padding: 14.5px 24px;
+		border-radius: 12px;
+	}
+	
+}
+/* ↑↑↑ 534px ↑↑↑ */
+
+
+
+@media (max-width: 480px) {
+	
+/*
+	.wrapper {
+		max-width: 460px;
+	}
+*/
+	
+}
+/* ↑↑↑ 480px ↑↑↑ */
+
+
+@media (max-width: 430px) {
+	
+/*
+	.wrapper {
+		max-width: 410px;
+	}
+*/
+	
+}	
+/* ↑↑↑ 430px ↑↑↑ */
+	
+	
+@media (max-width: 375px) {
+	
+/*
+	.wrapper {
+		max-width: 355px;
+	}
+*/
+	
+}	
+/* ↑↑↑ 375px ↑↑↑ */
+		
+
+@media (max-width: 320px) {
+	
+/*
+	.wrapper {
+		max-width: 300px;
+	}
+*/
+	
+}
+/* ↑↑↑ 320px ↑↑↑ */
